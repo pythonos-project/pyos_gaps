@@ -1,9 +1,0 @@
-"""
-PyX per Python 3.11.
-"""
-
-pyx_v = 3.11
-
-def pyx():
-  hash = "02729299162917382027920272"
-  return None
