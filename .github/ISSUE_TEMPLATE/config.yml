@@ -1,0 +1,6 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Issues PythonOS
+    url: https://github.com/pythonos-project/pythonos/issues
+    about: I bugs delle Gaps vengono sengalate nelle issue di PythonOS con il tempate dedicato
+    
