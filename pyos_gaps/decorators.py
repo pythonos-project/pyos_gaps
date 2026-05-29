@@ -10,7 +10,7 @@ def verify_pyos_dir_errorlevel():
     1 = cartella non esiste
     """
 
-    if is_dir("pythonos"):
+    if os.path.is_dir("pythonos"):
         return 0
     else:
         return 1
