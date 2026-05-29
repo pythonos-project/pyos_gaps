@@ -1,5 +1,4 @@
 import os
-from pathlib import Path
 
 
 def verify_pyos_dir_errorlevel():
@@ -11,9 +10,7 @@ def verify_pyos_dir_errorlevel():
     1 = cartella non esiste
     """
 
-    base_dir = Path(__file__).parent
-
-    if (base_dir / "pythonos").is_dir():
+    if ("pythonos").is_dir():
         return 0
     else:
         return 1
